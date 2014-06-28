@@ -7,7 +7,7 @@ Stepper motor = Stepper(64, 8, 9, 10, 11); // steps = 360/5.625, pins
 const int rotate_angle = 30; 
 const int delay_time = 5000;
 
-const int rotate_steps = (int) rotate_angle/one_step; // coefficient
+const int rotate_steps = (int) rotate_angle/one_step + 1; // coefficient
 
 int count_steps = 0;
 
