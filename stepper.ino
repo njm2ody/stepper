@@ -11,11 +11,8 @@ const int rotate_steps = (int) rotate_angle/one_step; // coefficient
 
 int count_steps = 0;
 
-const int led = 13;
-
 void setup(){
     motor.setSpeed(128);
-    pinMode(led, OUTPUT);   
     Serial.begin(9600);
 }
 
